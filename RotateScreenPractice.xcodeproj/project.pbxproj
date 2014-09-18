@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78335A8919C89C3000ADE888 /* ThumbnailsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78335A8819C89C3000ADE888 /* ThumbnailsContainerView.swift */; };
 		7851A7A619C8775600540527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7A519C8775600540527 /* AppDelegate.swift */; };
 		7851A7A919C8775600540527 /* RotateScreenPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7A719C8775600540527 /* RotateScreenPractice.xcdatamodeld */; };
-		7851A7AB19C8775600540527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7AA19C8775600540527 /* ViewController.swift */; };
-		7851A7AE19C8775600540527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7851A7AC19C8775600540527 /* Main.storyboard */; };
 		7851A7B019C8775600540527 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7851A7AF19C8775600540527 /* Images.xcassets */; };
-		7851A7B319C8775600540527 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7851A7B119C8775600540527 /* LaunchScreen.xib */; };
 		7851A7BF19C8775600540527 /* RotateScreenPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7BE19C8775600540527 /* RotateScreenPracticeTests.swift */; };
+		7851A7C919C877BB00540527 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7C819C877BB00540527 /* RootViewController.swift */; };
+		7851A7CB19C886D700540527 /* ThumbnailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7CA19C886D700540527 /* ThumbnailImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78335A8819C89C3000ADE888 /* ThumbnailsContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailsContainerView.swift; sourceTree = "<group>"; };
 		7851A7A019C8775600540527 /* RotateScreenPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateScreenPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7851A7A419C8775600540527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7851A7A519C8775600540527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7851A7A819C8775600540527 /* RotateScreenPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RotateScreenPractice.xcdatamodel; sourceTree = "<group>"; };
-		7851A7AA19C8775600540527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7851A7AD19C8775600540527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7851A7AF19C8775600540527 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7851A7B219C8775600540527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7851A7B819C8775600540527 /* RotateScreenPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateScreenPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7851A7BD19C8775600540527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7851A7BE19C8775600540527 /* RotateScreenPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateScreenPracticeTests.swift; sourceTree = "<group>"; };
+		7851A7C819C877BB00540527 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		7851A7CA19C886D700540527 /* ThumbnailImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				7851A7A519C8775600540527 /* AppDelegate.swift */,
-				7851A7AA19C8775600540527 /* ViewController.swift */,
-				7851A7AC19C8775600540527 /* Main.storyboard */,
+				7851A7C819C877BB00540527 /* RootViewController.swift */,
+				78335A8819C89C3000ADE888 /* ThumbnailsContainerView.swift */,
+				7851A7CA19C886D700540527 /* ThumbnailImageView.swift */,
 				7851A7AF19C8775600540527 /* Images.xcassets */,
-				7851A7B119C8775600540527 /* LaunchScreen.xib */,
 				7851A7A719C8775600540527 /* RotateScreenPractice.xcdatamodeld */,
 				7851A7A319C8775600540527 /* Supporting Files */,
 			);
@@ -195,8 +195,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7851A7AE19C8775600540527 /* Main.storyboard in Resources */,
-				7851A7B319C8775600540527 /* LaunchScreen.xib in Resources */,
 				7851A7B019C8775600540527 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +213,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7851A7AB19C8775600540527 /* ViewController.swift in Sources */,
+				78335A8919C89C3000ADE888 /* ThumbnailsContainerView.swift in Sources */,
 				7851A7A619C8775600540527 /* AppDelegate.swift in Sources */,
+				7851A7C919C877BB00540527 /* RootViewController.swift in Sources */,
 				7851A7A919C8775600540527 /* RotateScreenPractice.xcdatamodeld in Sources */,
+				7851A7CB19C886D700540527 /* ThumbnailImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,25 +238,6 @@
 			targetProxy = 7851A7B919C8775600540527 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7851A7AC19C8775600540527 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7851A7AD19C8775600540527 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7851A7B119C8775600540527 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7851A7B219C8775600540527 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7851A7C019C8775600540527 /* Debug */ = {
@@ -340,7 +321,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RotateScreenPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -350,7 +333,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RotateScreenPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +394,7 @@
 				7851A7C419C8775600540527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7851A7C519C8775600540527 /* Build configuration list for PBXNativeTarget "RotateScreenPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +403,7 @@
 				7851A7C719C8775600540527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
