@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780F188B19CB308B00ED31F9 /* LightboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F188A19CB308B00ED31F9 /* LightboxViewController.swift */; };
+		780F188D19CB4A0400ED31F9 /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F188C19CB4A0400ED31F9 /* TransitionAnimator.swift */; };
 		78335A8919C89C3000ADE888 /* ThumbnailsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78335A8819C89C3000ADE888 /* ThumbnailsContainerView.swift */; };
 		7851A7A619C8775600540527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7A519C8775600540527 /* AppDelegate.swift */; };
 		7851A7A919C8775600540527 /* RotateScreenPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7A719C8775600540527 /* RotateScreenPractice.xcdatamodeld */; };
@@ -14,6 +16,8 @@
 		7851A7BF19C8775600540527 /* RotateScreenPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7BE19C8775600540527 /* RotateScreenPracticeTests.swift */; };
 		7851A7C919C877BB00540527 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7C819C877BB00540527 /* RootViewController.swift */; };
 		7851A7CB19C886D700540527 /* ThumbnailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7851A7CA19C886D700540527 /* ThumbnailImageView.swift */; };
+		788A69DF19CC82C400BD29C0 /* ImagePagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788A69DE19CC82C400BD29C0 /* ImagePagingScrollView.swift */; };
+		78C0934119CBB28D00ECEEE9 /* ImageZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C0934019CBB28D00ECEEE9 /* ImageZoomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		780F188A19CB308B00ED31F9 /* LightboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightboxViewController.swift; sourceTree = "<group>"; };
+		780F188C19CB4A0400ED31F9 /* TransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionAnimator.swift; sourceTree = "<group>"; };
 		78335A8819C89C3000ADE888 /* ThumbnailsContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailsContainerView.swift; sourceTree = "<group>"; };
 		7851A7A019C8775600540527 /* RotateScreenPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateScreenPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7851A7A419C8775600540527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		7851A7BE19C8775600540527 /* RotateScreenPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateScreenPracticeTests.swift; sourceTree = "<group>"; };
 		7851A7C819C877BB00540527 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		7851A7CA19C886D700540527 /* ThumbnailImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailImageView.swift; sourceTree = "<group>"; };
+		788A69DE19CC82C400BD29C0 /* ImagePagingScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePagingScrollView.swift; sourceTree = "<group>"; };
+		78C0934019CBB28D00ECEEE9 /* ImageZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageZoomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				7851A7A519C8775600540527 /* AppDelegate.swift */,
-				7851A7C819C877BB00540527 /* RootViewController.swift */,
-				78335A8819C89C3000ADE888 /* ThumbnailsContainerView.swift */,
-				7851A7CA19C886D700540527 /* ThumbnailImageView.swift */,
+				788A69DC19CC808E00BD29C0 /* Controllers */,
+				788A69DD19CC809D00BD29C0 /* Views */,
+				780F188C19CB4A0400ED31F9 /* TransitionAnimator.swift */,
 				7851A7AF19C8775600540527 /* Images.xcassets */,
 				7851A7A719C8775600540527 /* RotateScreenPractice.xcdatamodeld */,
 				7851A7A319C8775600540527 /* Supporting Files */,
@@ -113,6 +121,26 @@
 				7851A7BD19C8775600540527 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		788A69DC19CC808E00BD29C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7851A7C819C877BB00540527 /* RootViewController.swift */,
+				780F188A19CB308B00ED31F9 /* LightboxViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		788A69DD19CC809D00BD29C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7851A7CA19C886D700540527 /* ThumbnailImageView.swift */,
+				78335A8819C89C3000ADE888 /* ThumbnailsContainerView.swift */,
+				788A69DE19CC82C400BD29C0 /* ImagePagingScrollView.swift */,
+				78C0934019CBB28D00ECEEE9 /* ImageZoomView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788A69DF19CC82C400BD29C0 /* ImagePagingScrollView.swift in Sources */,
 				78335A8919C89C3000ADE888 /* ThumbnailsContainerView.swift in Sources */,
+				78C0934119CBB28D00ECEEE9 /* ImageZoomView.swift in Sources */,
+				780F188D19CB4A0400ED31F9 /* TransitionAnimator.swift in Sources */,
+				780F188B19CB308B00ED31F9 /* LightboxViewController.swift in Sources */,
 				7851A7A619C8775600540527 /* AppDelegate.swift in Sources */,
 				7851A7C919C877BB00540527 /* RootViewController.swift in Sources */,
 				7851A7A919C8775600540527 /* RotateScreenPractice.xcdatamodeld in Sources */,

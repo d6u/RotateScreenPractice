@@ -13,6 +13,7 @@ class ThumbnailImageView: UIImageView {
     init(image: UIImage!, frame: CGRect, roundingCorners: UIRectCorner) {
         super.init(image: image)
         self.contentMode = UIViewContentMode.ScaleAspectFill
+        self.userInteractionEnabled = true
         self.clipsToBounds = true
         self.frame = frame
     }
